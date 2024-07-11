@@ -1,59 +1,58 @@
 /* Стилизация кнопки */
 
-.button{
-    display: flex;
-    min-width: 189px;
-    min-height: 48px;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 8px;
-    background: var(--primary);
-    color: var(--white);
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 18.75px;
-    text-align: center;
-    transition: background 200ms ease-in-out;
+.button {
+  display: flex;
+  min-width: 189px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  transition: background 200ms ease-in-out;
 }
 
-.button:disabled{
-    cursor: not-allowed;
-    opacity: 0.5;
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
-.button:hover, 
-.button:active, 
-.button.button_active{
-    background: #2342C0;
+.button:hover,
+.button:active,
+.button.button_active {
+  background: #2342c0;
 }
 
-.button_secondary{
-    background: var(--secondary);
+.button_secondary {
+  background: var(--secondary);
 }
 
-.button_secondary:hover, 
-.button_secondary:active, 
-.button_secondary.button_active{
-    background: #5028C6;
+.button_secondary:hover,
+.button_secondary:active,
+.button_secondary.button_active {
+  background: #5028c6;
 }
 
-.button_alternate{
-    border: 1px solid var(--grey-3);
-    background: transparent;
-    color: var(--grey-4)
+.button_alternate {
+  border: 1px solid var(--grey-3);
+  background: transparent;
+  color: var(--grey-4);
 }
 
 .button_alternate:hover,
 .button_alternate:active,
-.button_alternate.button_active{
-    border: 1px solid var(--black);
-    background: transparent;
-
+.button_alternate.button_active {
+  border: 1px solid var(--black);
+  background: transparent;
 }
 
-.button_alternate:disabled{
-    background: transparent;
-    opacity: 0.3;
+.button_alternate:disabled {
+  background: transparent;
+  opacity: 0.3;
 }
