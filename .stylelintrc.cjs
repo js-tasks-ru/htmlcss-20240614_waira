@@ -1,10 +1,8 @@
-const NAME_PATTERN = /^[a-z0-9]+(_[a-z0-9]+)*$/;
+const NAME_PATTERN =
+  /^[a-z]+([A-Z][a-z]+)*(__[a-z]+([A-Z][a-z]+)*)?(_[a-z]+([A-Z][a-z]+)*(_[a-z]+)?)?$/;
 
 module.exports = {
-  extends: [
-    'stylelint-config-standard-scss',
-    'stylelint-config-idiomatic-order',
-  ],
+  extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order'],
   rules: {
     'selector-class-pattern': [
       NAME_PATTERN,
