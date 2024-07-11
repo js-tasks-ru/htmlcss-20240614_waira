@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Course Materials",
   "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js"
+    "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
+    "stylelint": "stylelint \"**/*.css\" --fix"
   },
   "husky": {
     "hooks": {
@@ -14,6 +15,9 @@
     "*.{html,css,scss}": [
       "prettier --write",
       "git add"
+    ],
+    "*.{css}": [
+      "stylelint --fix"
     ]
   },
   "keywords": [],
@@ -22,11 +26,12 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "cross-env": "^7.0.2",
-    "mocha": "^7.1.2"
-  },
-  "dependencies": {
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "mocha": "^7.1.2",
+    "prettier": "^2.2.1",
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-order": "6.0.4",
+    "stylelint": "16.6.1"
   }
 }
