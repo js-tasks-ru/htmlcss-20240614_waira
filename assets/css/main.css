@@ -15,6 +15,10 @@
   --success: var(--blue);
   --primary: var(--blue);
   --secondary: var(--purple);
+  --max-width: 1120px;
+  --font-size-h1: 50px;
+  --font-size-h2: 38px;
+  --font-size-p: 16px;
 }
 
 body {
