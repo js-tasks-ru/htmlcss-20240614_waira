@@ -5,7 +5,9 @@
   --black: #212429;
   --pink: #f784ad;
   --purple: #7048e8;
+  --purple-dark: #5028c6;
   --blue: #374fc7;
+  --blue-dark: #2342c0;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
@@ -14,7 +16,9 @@
   --error: var(--red);
   --success: var(--blue);
   --primary: var(--blue);
+  --primary-dark: var(--blue-dark);
   --secondary: var(--purple);
+  --secondary-dark: var(--purple-dark);
   --max-width: 1120px;
   --font-size-h1: 50px;
   --font-size-h2: 38px;
