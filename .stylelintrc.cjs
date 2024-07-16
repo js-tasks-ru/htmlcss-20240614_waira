@@ -16,5 +16,6 @@ module.exports = {
     'font-weight-notation': 'numeric',
     'color-named': 'never',
     'color-function-notation': ['modern', { ignore: ['with-var-inside'] }],
+    'import-notation': 'string',
   },
 };
