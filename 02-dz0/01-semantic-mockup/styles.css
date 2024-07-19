@@ -3,15 +3,15 @@
 }
 
 body {
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
 }
 
 header {
-    background-color: rgb(255,0,0);
+    background-color: rgb(255 0 0);
     text-align: center;
 }
 
@@ -20,25 +20,25 @@ h1 {
 }
 
 nav {
-    background-color: rgb(255,154,0);
     padding: 1rem;
+    background-color: rgb(255 154 0);
 }
 
 main {
-    background-color: rgb(2, 162, 66);
-    padding: 8px;
     display: flex;
     flex-direction: column;
+    padding: 8px;
+    background-color: rgb(2 162 66);
     gap: 0.5rem;
 }
 
 article {
-    background-color: rgb(19,24,255);
     padding: 1rem;
+    background-color: rgb(19 24 255);
 }
 
 footer {
-    background-color: rgb(189,1,255);
     padding: 1rem;
+    background-color: rgb(189 1 255);
     text-align: center;
 }

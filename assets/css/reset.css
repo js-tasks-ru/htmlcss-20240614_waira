@@ -1,0 +1,76 @@
+/* Сброс базовых стилей */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Установка основных настроек по умолчанию для основных элементов */
+html,
+body {
+  height: 100%;
+  background: #fff; /* Базовый фон страницы */
+  color: #333; /* Базовый цвет текста */
+  font-family: 'Arial', sans-serif; /* Выберите шрифт по умолчанию, который предпочитаете */
+  font-size: 16px; /* Базовый размер шрифта */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* Убираем стандартные стили списка и ссылок */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit; /* Цвет ссылок как у родительского элемента */
+  text-decoration: none;
+}
+
+/* Убираем стандартные отступы для основных блоков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Устанавливаем стандартные стили для изображений и полей ввода */
+img {
+  display: block; /* Убираем пространство под изображениями */
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Наследуем шрифт и размер от html/body */
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Убираем стандартные стили для форм */
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/* Обнуляем таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
