@@ -4,4 +4,7 @@
 @import '../../components/container.css';
 @import '../../components/header.css';
 @import '../../components/main.css';
+@import '../../components/preview.css';
+@import '../../components/histogram.css';
+@import '../../components/card.css';
 @import '../../components/footer.css';
