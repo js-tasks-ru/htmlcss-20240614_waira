@@ -1,0 +1,36 @@
+.skeleton {
+  padding: 24px 40px 32px 24px;
+  border: 1px solid var(--grey-2);
+  border-radius: 8px;
+}
+
+.skeleton__header {
+  display: flex;
+}
+
+.skeleton__picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  margin-bottom: 24px;
+  background: var(--grey-2);
+}
+
+.skeleton__title {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  padding: 8px 16px;
+  gap: 8px;
+}
+
+.skeleton__body {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+.skeleton__row {
+  height: 20px;
+  background: var(--grey-2);
+}
