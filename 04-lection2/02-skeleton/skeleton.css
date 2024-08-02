@@ -6,13 +6,13 @@
 
 .skeleton__header {
   display: flex;
+  margin-bottom: 24px;
 }
 
 .skeleton__picture {
   width: 64px;
   height: 64px;
   border-radius: 100%;
-  margin-bottom: 24px;
   background: var(--grey-2);
 }
 
@@ -20,7 +20,8 @@
   display: flex;
   flex: 1;
   flex-flow: column;
-  padding: 8px 16px;
+  align-self: center;
+  padding: 0 16px;
   gap: 8px;
 }
 
