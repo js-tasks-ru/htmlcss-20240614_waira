@@ -34,3 +34,11 @@
   height: 20px;
   background: var(--grey-2);
 }
+
+.skeleton__row_width_30 {
+  width: 30%;
+}
+
+.skeleton__row_width_45 {
+  width: 45%;
+}
