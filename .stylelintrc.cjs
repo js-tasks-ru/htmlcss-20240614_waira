@@ -1,5 +1,5 @@
 const NAME_PATTERN =
-  /^[a-z]+([A-Z][a-z]+)*(__[a-z]+([A-Z][a-z]+)*)?(_[a-z]+([A-Z][a-z]+)*(_[a-z]+)?)?$/;
+  /^[a-z][a-z0-9]*(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?((_[a-z0-9]+(-[a-z0-9]+)*){1,2})?$/;
 
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-idiomatic-order'],
@@ -7,8 +7,8 @@ module.exports = {
     'selector-class-pattern': [
       NAME_PATTERN,
       {
-        message: (selector) =>
-          `Expected class selector "${selector}" to be snake_case`,
+        message: (className) =>
+          `Expected class selector "${className}" to be kebab-case and follow BEM-like pattern`,
       },
     ],
     'declaration-no-important': true,

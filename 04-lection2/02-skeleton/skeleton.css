@@ -1,0 +1,45 @@
+.skeleton {
+  padding: 24px 40px 32px 24px;
+  border: 1px solid var(--grey-2);
+  border-radius: 8px;
+}
+
+.skeleton__header {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.skeleton__picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background: var(--grey-2);
+}
+
+.skeleton__title {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  align-self: center;
+  padding: 0 16px;
+  gap: 8px;
+}
+
+.skeleton__body {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+.skeleton__row {
+  height: 20px;
+  background: var(--grey-2);
+}
+
+.skeleton__row_width_30 {
+  width: 30%;
+}
+
+.skeleton__row_width_45 {
+  width: 45%;
+}
