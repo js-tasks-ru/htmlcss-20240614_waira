@@ -37,7 +37,7 @@
 .modal__header {
   margin: 0;
   margin-bottom: 14px;
-  color: #334d6e;
+  color: var(--blue-darkness);
   font-family: var(--font-family-secondary);
   font-size: var(--font-size-h5);
   font-weight: 600;
