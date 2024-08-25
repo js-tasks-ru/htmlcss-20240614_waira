@@ -25,6 +25,8 @@
   --font-family-secondary: 'Inter', sans-serif;
   --font-size-h1: 50px;
   --font-size-h2: 38px;
+  --font-size-h5: 20px;
+  --line-height-h5: 24px;
   --font-size-p: 16px;
   --line-height-p: 24px;
 }
