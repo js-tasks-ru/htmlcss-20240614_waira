@@ -20,11 +20,13 @@
   --secondary: var(--purple);
   --secondary-dark: var(--purple-dark);
   --max-width: 1120px;
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Inter', sans-serif;
   --font-size-h1: 50px;
   --font-size-h2: 38px;
   --font-size-p: 16px;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-primary);
 }
