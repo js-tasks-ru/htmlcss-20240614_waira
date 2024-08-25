@@ -8,6 +8,7 @@
   --purple-dark: #5028c6;
   --blue: #374fc7;
   --blue-dark: #2342c0;
+  --blue-darkness: #334d6e;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
@@ -23,6 +24,7 @@
   --max-width: 1120px;
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Inter', sans-serif;
+  --font-family-numbers: 'Source Sans 3', sans-serif;
   --font-size-h1: 50px;
   --font-size-h2: 38px;
   --font-size-h5: 20px;
