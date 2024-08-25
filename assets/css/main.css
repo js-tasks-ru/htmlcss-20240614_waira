@@ -16,6 +16,7 @@
   --error: var(--red);
   --success: var(--blue);
   --primary: var(--blue);
+  --color-on-primary: var(--grey-2);
   --primary-dark: var(--blue-dark);
   --secondary: var(--purple);
   --secondary-dark: var(--purple-dark);
@@ -25,6 +26,7 @@
   --font-size-h1: 50px;
   --font-size-h2: 38px;
   --font-size-p: 16px;
+  --line-height-p: 24px;
 }
 
 body {
