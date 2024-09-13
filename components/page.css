@@ -3,3 +3,33 @@
   color: var(--black);
   font-family: var(--font-family-secondary);
 }
+
+.page_grid {
+  display: grid;
+  background-color: #f9fafc;
+  font-family: var(--font-family-secondary);
+  grid-template-areas:
+    'header header header header header'
+    '. . . . .'
+    '. sidebar .  main .'
+    'footer footer footer footer footer';
+  grid-template-columns: 165px 229px 56px 1fr 165px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  grid-template-rows: 82px 36px 1fr 166px;
+}
+
+.page__header {
+  grid-area: header;
+}
+
+.page__sidebar {
+  grid-area: sidebar;
+}
+
+.page__main {
+  grid-area: main;
+}
+
+.page__footer {
+  grid-area: footer;
+}
