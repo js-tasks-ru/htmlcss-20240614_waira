@@ -3,10 +3,8 @@
   text-align: center;
 }
 
-.footer_center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.footer_internal {
+  padding: 92px 0 56px;
 }
 
 .footer__container {
@@ -22,7 +20,6 @@
 
 .footer__subtitle {
   color: var(--grey-3);
-  font-family: var(--font-family-secondary);
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 4%;

@@ -15,7 +15,7 @@
     'footer footer footer footer footer';
   grid-template-columns: 165px 229px 56px 1fr 165px;
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
-  grid-template-rows: 82px 36px 1fr 166px;
+  grid-template-rows: 82px 36px 1fr auto;
 }
 
 .page__header {
