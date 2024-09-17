@@ -8,26 +8,25 @@
   display: grid;
   background-color: #f9fafc;
   font-family: var(--font-family-secondary);
+  grid-gap: 36px;
   grid-template-areas:
-    'header header header header header'
-    '. . . . .'
-    '. sidebar .  main .'
-    'footer footer footer footer footer';
-  grid-template-columns: 165px 229px 56px 1fr 165px;
+    'header'
+    'container'
+    'footer';
+  grid-template-columns: 1fr;
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
-  grid-template-rows: 82px 36px 1fr auto;
+  grid-template-rows: 82px 1fr auto;
 }
 
 .page__header {
   grid-area: header;
 }
 
-.page__sidebar {
-  grid-area: sidebar;
-}
-
-.page__main {
-  grid-area: main;
+.page__container {
+  display: flex;
+  width: 100%;
+  gap: 56px;
+  grid-area: container;
 }
 
 .page__footer {

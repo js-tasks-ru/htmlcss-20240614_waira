@@ -1,4 +1,5 @@
 .main {
+  width: 100%;
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
   background: #f9fafc;
@@ -21,6 +22,6 @@
   line-height: 38px;
 }
 
-.main__content_histogram {
+.main__histogram {
   max-width: 300px;
 }
