@@ -1,0 +1,10 @@
+@import '../assets/css/reset.css';
+@import '../assets/css/main.css';
+@import '../components/page.css';
+@import '../components/main.css';
+@import '../components/container.css';
+@import '../components/header.css';
+@import '../components/footer.css';
+@import '../components/sidebar.css';
+@import '../components/menu.css';
+@import '../components/histogram.css';

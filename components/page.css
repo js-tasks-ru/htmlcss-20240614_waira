@@ -1,5 +1,34 @@
 .page {
   margin: 0;
   color: var(--black);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family-secondary);
+}
+
+.page_grid {
+  display: grid;
+  background-color: #f9fafc;
+  font-family: var(--font-family-secondary);
+  grid-gap: 36px;
+  grid-template-areas:
+    'header'
+    'container'
+    'footer';
+  grid-template-columns: 1fr;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  grid-template-rows: 82px 1fr auto;
+}
+
+.page__header {
+  grid-area: header;
+}
+
+.page__container {
+  display: flex;
+  width: 100%;
+  gap: 56px;
+  grid-area: container;
+}
+
+.page__footer {
+  grid-area: footer;
 }

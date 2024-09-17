@@ -8,6 +8,7 @@
   --purple-dark: #5028c6;
   --blue: #374fc7;
   --blue-dark: #2342c0;
+  --blue-darkness: #334d6e;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
@@ -16,15 +17,22 @@
   --error: var(--red);
   --success: var(--blue);
   --primary: var(--blue);
+  --color-on-primary: var(--grey-2);
   --primary-dark: var(--blue-dark);
   --secondary: var(--purple);
   --secondary-dark: var(--purple-dark);
   --max-width: 1120px;
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Inter', sans-serif;
+  --font-family-numbers: 'Source Sans 3', sans-serif;
   --font-size-h1: 50px;
   --font-size-h2: 38px;
+  --font-size-h5: 20px;
+  --line-height-h5: 24px;
   --font-size-p: 16px;
+  --line-height-p: 24px;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-primary);
 }

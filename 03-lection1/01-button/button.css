@@ -9,7 +9,7 @@
   background: var(--primary);
   color: var(--white);
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-primary);
   font-size: 1rem;
   font-weight: 500;
   line-height: 18.75px;

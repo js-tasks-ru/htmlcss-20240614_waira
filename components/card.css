@@ -18,7 +18,7 @@
 .card__title {
   margin-top: 30px;
   color: var(--black);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-primary);
   font-size: 21px;
   font-style: normal;
   font-weight: 500;

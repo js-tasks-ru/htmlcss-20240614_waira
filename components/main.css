@@ -1,6 +1,27 @@
 .main {
-  height: 1036px;
+  width: 100%;
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
   background: #f9fafc;
+}
+
+.main_internal {
+  padding: 32px 48px;
+  border-radius: 12px;
+  border-top: none;
+  border-bottom: none;
+  background: var(--white);
+  box-shadow: 0 2px 4px rgb(33 36 41 / 5%);
+}
+
+.main__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.main__histogram {
+  max-width: 300px;
 }
