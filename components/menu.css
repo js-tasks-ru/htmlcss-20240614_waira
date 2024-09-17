@@ -24,6 +24,6 @@
   color: #d84910;
 }
 
-.menu__item_active .menu__link {
+.menu__link_active {
   color: #d84910;
 }
