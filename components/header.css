@@ -1,11 +1,29 @@
 .header {
+  padding: 16px 16px 69px;
   background-color: var(--white);
 }
 
+.header__logo {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
 .header__title {
-  padding: 96px 0 77px;
+  padding: 0;
   margin: 0;
   font-size: var(--font-size-h1);
   font-weight: 500;
-  line-height: 64px;
+  line-height: var(--line-height-h1);
+}
+
+@media screen and (width >= 600px) {
+  .header {
+    padding: 24px 24px 69px;
+    background-color: var(--white);
+  }
+
+  .header__logo {
+    margin-bottom: 38px;
+    text-align: left;
+  }
 }
