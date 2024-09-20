@@ -34,8 +34,8 @@
 
 .accordion__summary::after {
   display: block;
-  width: 18px;
-  height: 10px;
+  width: 26px;
+  height: 26px;
   background-image: url('images/arrow-down.svg');
   content: ' ';
   transition: all 0.1s;
