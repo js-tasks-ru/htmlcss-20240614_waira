@@ -21,7 +21,7 @@
   line-height: var(--font-height-h2);
 }
 
-@media screen and (width >= 600px) {
+@media screen and (min-width: 600px) {
   .main {
     background-color: var(--secondary-background);
   }

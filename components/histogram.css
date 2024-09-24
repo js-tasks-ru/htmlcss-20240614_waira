@@ -57,7 +57,7 @@
   line-height: var(--line-height-h5);
 }
 
-@media screen and (width >= 600px) {
+@media screen and (min-width: 600px) {
   .histogram {
     padding: 16px 24px 24px;
   }

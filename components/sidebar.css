@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (width >= 1200px) {
+@media screen and (min-width: 1200px) {
   .sidebar {
     display: flex;
     flex-direction: column;

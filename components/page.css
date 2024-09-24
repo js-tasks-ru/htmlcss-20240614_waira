@@ -35,7 +35,7 @@
   grid-area: footer;
 }
 
-@media screen and (width >= 1200px) {
+@media screen and (min-width: 1200px) {
   .page_grid {
     grid-gap: 36px;
     grid-template-rows: 82px 1fr auto;
