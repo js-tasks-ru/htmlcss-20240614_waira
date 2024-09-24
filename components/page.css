@@ -5,12 +5,9 @@
   font-family: var(--font-family-secondary);
 }
 
-.page_internal {
-  background-color: var(--secondary-background);
-}
-
 .page_grid {
   display: grid;
+  background-color: var(--secondary-background);
   font-family: var(--font-family-secondary);
   grid-template-areas:
     'header'
