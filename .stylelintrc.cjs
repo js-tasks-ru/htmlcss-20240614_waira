@@ -17,5 +17,6 @@ module.exports = {
     'color-named': 'never',
     'color-function-notation': ['modern', { ignore: ['with-var-inside'] }],
     'import-notation': 'string',
+    'media-feature-range-notation': 'prefix',
   },
 };

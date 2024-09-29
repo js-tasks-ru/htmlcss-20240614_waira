@@ -1,5 +1,11 @@
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

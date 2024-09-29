@@ -1,21 +1,21 @@
 .page {
   margin: 0;
+  background-color: var(--primary-background);
   color: var(--black);
   font-family: var(--font-family-secondary);
 }
 
 .page_grid {
   display: grid;
-  background-color: #f9fafc;
+  background-color: var(--secondary-background);
   font-family: var(--font-family-secondary);
-  grid-gap: 36px;
   grid-template-areas:
     'header'
     'container'
     'footer';
   grid-template-columns: 1fr;
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
-  grid-template-rows: 82px 1fr auto;
+  grid-template-rows: 64px 1fr auto;
 }
 
 .page__header {
@@ -24,11 +24,17 @@
 
 .page__container {
   display: flex;
-  width: 100%;
   gap: 56px;
   grid-area: container;
 }
 
 .page__footer {
   grid-area: footer;
+}
+
+@media screen and (min-width: 1200px) {
+  .page_grid {
+    grid-gap: 36px;
+    grid-template-rows: 82px 1fr auto;
+  }
 }

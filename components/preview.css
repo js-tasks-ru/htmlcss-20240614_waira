@@ -1,13 +1,22 @@
 .preview {
-  padding: 68px 0;
+  padding: 24px 0 64px;
 }
 
 .preview__cards {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 30px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.preview__card {
-  flex: 1 1 30%;
+@media screen and (min-width: 600px) {
+  .preview {
+    padding: 67px 0 204px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .preview__cards {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
