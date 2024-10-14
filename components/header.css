@@ -2,9 +2,14 @@
   padding: 16px 0 69px;
 }
 
-.header__logo {
+.header__container {
   margin-bottom: 48px;
   text-align: center;
+}
+
+.header__logo {
+  width: 110px;
+  height: 32px;
 }
 
 .header__title {
@@ -21,7 +26,7 @@
     background-color: var(--white);
   }
 
-  .header__logo {
+  .header__container {
     margin-bottom: 38px;
     text-align: left;
   }

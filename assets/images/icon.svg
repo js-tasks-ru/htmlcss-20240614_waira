@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="logo" viewBox="0 0 110 32" fill="none">
+            <g clip-path="url(#clip0_17869_61)" fill="#212429">
+                <path d="M0 1h30v30H0z"/>
+                <rect x="38" width="32" height="32" rx="16"/>
+                <path d="m78 0 32 32H78V0Z"/>
+            </g>
+            <defs>
+                <clipPath id="clip0_17869_61">
+                    <path fill="#fff" d="M0 0h110v32H0z"/>
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="close" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.707 5.293a1 1 0 0 1 0 1.414l-12 12a1 1 0 0 1-1.414-1.414l12-12a1 1 0 0 1 1.414 0Z" fill="#212429"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.293 5.293a1 1 0 0 1 1.414 0l12 12a1 1 0 0 1-1.414 1.414l-12-12a1 1 0 0 1 0-1.414Z" fill="#212429"/>
+        </symbol>
+
+        <symbol id="question" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18ZM1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Z" fill="#212429"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.258 8.024a2 2 0 0 0-2.224 1.308 1 1 0 0 1-1.887-.664 4 4 0 0 1 7.773 1.333c0 1.53-1.135 2.54-1.945 3.081a8.036 8.036 0 0 1-1.686.848l-.035.013-.011.003-.004.002h-.001s-.002 0-.318-.948l.316.949a1 1 0 0 1-.633-1.897h-.001l.017-.006.074-.027a6.046 6.046 0 0 0 1.172-.6c.69-.46 1.055-.95 1.055-1.419v-.002a2 2 0 0 0-1.662-1.974ZM12 15a1 1 0 0 1 1 1v.5a1 1 0 1 1-2 0V16a1 1 0 0 1 1-1Z" fill="#212429"/>
+        </symbol>
+        
+        <symbol id="arrow-down" viewBox="0 0 26 26" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.293 8.293a1 1 0 0 1 1.414 0L13 15.586l7.293-7.293a1 1 0 1 1 1.414 1.414l-8 8a1 1 0 0 1-1.414 0l-8-8a1 1 0 0 1 0-1.414Z" fill="#212429"/>
+        </symbol>
+    </defs>
+</svg>
